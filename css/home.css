@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height:100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-coloer: white;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    font-family: "Times New Roman";
+    font-size: 40px;
+    text-underline: none;
+}
+
+#sup {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+#leftbar {
+    min-width: 20%;
+    height: 200vh;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#postlks {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#calendar {
+    height: 30%;
+    width: 20%;
+    margin-top: 20px;
+}
+
+#nav {
+    width: 50%;
+    height: 15%;
+    position: center;
+    list-style-type: none;
+    float:left;
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+#nav h2 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    text-align:center;
+}
+
+#center .community{
+    min-width: 20%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    float: left;
+    display: inline;
+}
+
+#center .housing {
+    min-width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    float:left;
+    display: inline;
+}
+
+#center .jobs {
+    min-width: 13%;
+    height: 100%;
+    margin-left: 10px;
+    float:left;
+    display: inline;
+}
+
+#center .community .ban {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+#center .community .ban a {
+    text-decoration: none;
+}
+
+#center .housing .ban {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#center .housing .ban a {
+    text-decoration: none;
+}
+
+#center .jobs .ban {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+#center .jobs .ban a {
+    text-decoration: none;
+}
+
+#center .community #forums li {
+    font-size: 15px;
+}
+
+#center ul {
+    list-style-type: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+#center ul a {
+    text-decoration: none;
+}
+
+#center li {
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
