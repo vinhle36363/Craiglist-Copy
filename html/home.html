@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>cragslist</title>
+    <title>Buylist</title>
     <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <?php
+
+    ?>
 </head>
 <body>
     <div class="wrapepr">
@@ -11,7 +14,7 @@
 
             <div id="leftbar">
                 <div id="logo">
-                    <a href="about.html" style="text-decoration: none">cragslist</a>
+                    <a href="about.html" style="text-decoration: none">Buylist</a>
                     <sup id="sup">
                         <a href="about.html" style="text-decoration: none">ca</a>
                     </sup>
@@ -305,7 +308,7 @@
 
 
                     <div id="ppp" class="col">
-                        <h4 class="ban">personals</h4>
+                        <h4 class="ban" style="color: blue">personals</h4>
                         <div class="cats">
                             <ul id="ppp0" >
                                 <li><a href="/i/personals?category=stp" class="stp" data-cat="stp"><span class="txt">strictly platonic<sup class="c"></sup></span></a></li>
@@ -379,9 +382,16 @@
                             </ul>
                         </div>
                     </div>
+                </div>
             </div>
-            <div id="rightbar"></div>
-
+            <div id="rightbar">
+                <p style="text-align: center">User Login</p>
+                <form id="login" action='../php/login.php' method='post'>
+                    <input type='text' name='u' placeholder="username"><br>
+                    <input type='password' name='p'><br>
+                    <input type='submit' value="Login">
+                </form>
+            </div>
         </section>
     </div>
 </body>

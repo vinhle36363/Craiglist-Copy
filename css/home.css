@@ -1,12 +1,12 @@
 body {
     width: 100%;
     height:100%;
+    background-color: #221f1f;
 }
 
 .wrapper {
     width: 100%;
     height: 100%;
-    background-coloer: white;
     border: 1px solid black;
     overflow: auto;
 }
@@ -14,6 +14,7 @@ body {
 .page-container {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 #logo {
@@ -49,15 +50,13 @@ body {
 }
 
 #nav {
-    width: 50%;
+    width: 54.5%;
     height: 15%;
-    position: center;
+    position: relative;
     list-style-type: none;
-    float:left;
-    overflow: hidden;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 347px;
     margin-bottom: 0;
 }
 #nav h2 {
@@ -68,10 +67,10 @@ body {
 }
 
 #center .community{
+    position: relative;
     min-width: 20%;
-    height: 100%;
-    margin-top: 50px;
     margin-left: 10px;
+    height: 100%;
     float: left;
     display: inline;
 }
@@ -122,7 +121,6 @@ body {
     text-align: center;
 }
 
-
 #center .jobs .ban a {
     text-decoration: none;
 }
@@ -140,9 +138,27 @@ body {
 
 #center ul a {
     text-decoration: none;
+
+    color: #cccccc;
 }
 
 #center li {
     border-bottom: 1px solid black;
     font-size: 15px;
+}
+
+#center .col {
+    background-color: gray;
+}
+
+#rightbar {
+    position: fixed;
+    top: 20px;
+    right: 150px;
+    min-width: 15%;
+    height: 80vh;
+    background-color: lightgray;
+    text-align: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
